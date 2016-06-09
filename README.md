@@ -1,3 +1,3 @@
 # nooid
 
-Get a new guid without many clicks: guid.nz
+Get a new guid without many clicks: http://guid.nz
