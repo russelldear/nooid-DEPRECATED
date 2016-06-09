@@ -1,0 +1,27 @@
+{
+  "name": "nooid",
+  "version": "1.0.0",
+  "description": "New guids.",
+  "main": "app.js",
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russelldear/nooid.git"
+  },
+  "keywords": [
+    "new",
+    "guid"
+  ],
+  "author": "Russell Dear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russelldear/nooid/issues"
+  },
+  "homepage": "https://github.com/russelldear/nooid#readme"
+}
