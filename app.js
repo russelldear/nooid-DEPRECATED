@@ -1,10 +1,12 @@
 var http = require("http");
 var uuid = require('node-uuid');
 
+var port = process.env.PORT || 8081
+
 http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/html'});
    response.end(getHtml());
-}).listen(8081);
+}).listen(port);
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
