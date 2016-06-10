@@ -2,8 +2,23 @@ var http = require("http");
 var uuid = require('node-uuid');
 
 http.createServer(function (request, response) {
-   response.writeHead(200, {'Content-Type': 'text/html'});
-   response.end(getHtml());
+
+  try {
+
+    if(request.headers && request.headers['accept'] && request.headers['accept'].includes('text/html')){
+      response.writeHead(200, {'Content-Type': 'text/html'});
+      response.end(getHtml());
+    } else {
+      response.writeHead(200, {'Content-Type': 'text/plain'});
+      response.end(uuid.v4());
+    }
+
+  } catch (err) {
+    console.log(err);
+    response.writeHead(200, {'Content-Type': 'text/plain'});
+    response.end('Soz! ' + err);
+  }
+
 }).listen(8081);
 
 // Console will print the message
