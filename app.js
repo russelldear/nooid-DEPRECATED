@@ -43,7 +43,7 @@ function getHtml(){
           }
         </style>
       </head>
-      <body style='text-align: center; font-family: courier; padding: 20px;'>
+      <body style='text-align: center; font-family: courier; padding: 10px;'>
         <textarea readonly='readonly' class='js-copytextarea'>`
          + guid + 
          `</textarea>
