@@ -1,3 +1,5 @@
+require ('newrelic');
+
 var http = require("http");
 var uuid = require('node-uuid');
 

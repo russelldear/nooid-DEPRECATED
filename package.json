@@ -4,6 +4,7 @@
   "description": "New guids.",
   "main": "app.js",
   "dependencies": {
+    "newrelic": "^1.28.1",
     "node-uuid": "^1.4.7"
   },
   "devDependencies": {},
