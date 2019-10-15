@@ -49,6 +49,7 @@ function getHtml(){
         <textarea readonly='readonly' class='js-copytextarea'>`
          + guid + 
          `</textarea>
+.
         <img title='Copy' class='js-textareacopybtn' style='vertical-align: top; margin-left: 5px;' src='https://s3-us-west-2.amazonaws.com/nooid/copy.png' />
         <img title='Refresh' style='vertical-align: top; margin-left: 5px;' src='https://s3-us-west-2.amazonaws.com/nooid/new.png' onclick='location.reload();' />
         ` + getScript() + `
