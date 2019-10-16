@@ -1,3 +1,3 @@
 # nooid
 
-Get a new guid without many clicks: http://guid.nz
+Deprecated in favour of http://guid.nz via russelldear.github.io
